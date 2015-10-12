@@ -1,0 +1,80 @@
+
+<html>
+<head>
+<meta charset = "utf-8">
+
+<title>Lotto Table</title>
+<link rel="stylesheet" type="text/css" href="pooja.css"></link>
+<style type="text/css">
+.normal { width:40px; font-size:25em; font:bold; }
+
+.lotto{height:200px;}
+</style>
+<script type="text/javascript" src = "pooja.js">
+
+</script>
+</head>
+<body onload="UpdateTable();">
+<center>
+<div id="container">
+
+<div id="header"> <h1><strong>Word Shake</strong></h1> </div>
+
+<div id="content">
+ <span id="tableSpan">
+  <table align = "centre" border="1" id="lotto"></br>
+  <caption></caption>
+  <tr>
+   <th class="normal" ><button class="btnclass" id ="cell1"  type = "button" value="" style="width:100%;" onclick='haha(this)' ></button></th>
+   <th class="normal" ><button class="btnclass" id="cell2" type = "button" style="width:100%" onclick='haha(this)'></button></th>
+   <th class="normal" ><button class="btnclass" id="cell3" type = "button" style="width:100%" onclick='haha(this)'></button></th>
+   <th class="normal" ><button class="btnclass" id="cell4"  type = "button" style="width:100%" onclick='haha(this)'></button></th>
+   <th class="normal" ><button class="btnclass" id="cell5" type = "button" style="width:100%" onclick='haha(this)'></button></th>
+   
+   <tr>
+   <th class="normal" ><button class="btnclass" id="cell6" type = "button" style="width:100%" onclick='haha(this)'></button></th>
+   <th class="normal" ><button class="btnclass" id="cell7" type = "button" style="width:100%" onclick='haha(this)'></button></th>
+   <th class="normal" ><button class="btnclass" id="cell8" type = "button" style="width:100%" onclick='haha(this)'></button></th>
+   <th class="normal" ><button class="btnclass" id="cell9" type = "button" style="width:100%" onclick='haha(this)'></button></th>
+   <th class="normal" ><button class="btnclass" id="cell10" type = "button" style="width:100%" onclick='haha(this)'></button></th>
+
+   <tr>
+   <th class="normal" ><button class="btnclass"  id="cell11" type = "button" style="width:100%" onclick='haha(this)'></button></th>
+   <th class="normal" ><button class="btnclass" id="cell12" type = "button" style="width:100%" onclick='haha(this)'></button></th>
+   <th class="normal" ><button class="btnclass" id="cell13" type = "button" style="width:100%" onclick='haha(this)'></button></th>
+   <th class="normal" ><button class="btnclass" id="cell14" type = "button" style="width:100%" onclick='haha(this)'></button></th>
+   <th class="normal" ><button class="btnclass" id="cell15" type = "button" style="width:100%" onclick='haha(this)'></button></th>
+   <tr>
+   <th class="normal" ><button class="btnclass" id="cell16" type = "button" style="width:100%" onclick='haha(this)'></button></th>
+   <th class="normal" ><button class="btnclass" id="cell17" type = "button" style="width:100%" onclick='haha(this)'></button></th>
+   <th class="normal" ><button class="btnclass" id="cell18" type = "button" style="width:100%" onclick='haha(this)'></button></th>
+   <th class="normal" ><button class="btnclass" id="cell19" type = "button" style="width:100%" onclick='haha(this)'></button></th>
+   <th class="normal" ><button class="btnclass" id="cell20" type = "button" style="width:100%" onclick='haha(this)'></button></th>
+   
+   <tr>
+   <th class="normal" ><button class="btnclass" id="cell21" type = "button" style="width:100%" onclick='haha(this)'></button></th>
+   <th class="normal" ><button class="btnclass" id="cell22" type = "button" style="width:100%" onclick='haha(this)'></button></th>
+   <th class="normal" ><button class="btnclass" id="cell23" type = "button" style="width:100%" onclick='haha(this)'></button></th>
+   <th class="normal" ><button class="btnclass" id="cell24" type = "button" style="width:100%" onclick='haha(this)'></button></th>
+   <th class="normal" ><button class="btnclass" id="cell25" type = "button" style="width:100%" onclick='haha(this)'></button></th>
+   
+  </tr>
+  </tr>
+   
+  </tr>
+   
+  </tr>
+  </tr>
+  </table></br>
+ </span>
+ <input type="button" value="Re-generate Letters" onclick="UpdateTable();" />
+  <input type="button" value="Check" onclick="Check();" />
+</div>
+
+</center>
+
+<p align="center" id="result"></p>
+<p align="center">Your Score is</p><p align="center" id="result1"></p> 
+</body>
+
+</html>
