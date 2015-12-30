@@ -12,12 +12,16 @@ function CreateLottoValues() {
 
   for (var i=0; i<randomArray.length; i++) {
 	
-
+	while(true){
 	console.log("hello");
 	var random_index = Math.floor(Math.random() * array.length);
-		randomArray[i] = array[random_index];
 	
-  
+	if(isNew(random_index)){
+		arr.push(random_index);
+		randomArray[i] = array[random_index];
+		break;
+	}
+     }
 }
 }
 

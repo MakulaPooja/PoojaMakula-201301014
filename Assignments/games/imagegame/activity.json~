@@ -1,0 +1,29 @@
+{"list":[
+  
+	{
+	"question":"దీనిలో  ఎరుపు రంగు ఏది?",
+	"option1":"red.jpg",
+	"option2":"green.jpg",
+	"option3":"blue.jpg"
+	},
+	{
+	"question":"వీటిలో రోజ పువ్వు ఏది?",
+	"option1":"rose.jpg",
+	"option2":"lily.jpg",
+	"option3":"Sunflowers.jpg"
+	},
+	{
+	"question":"వీటిలో సింహం ఏదో గుర్తించండి?",
+	"option1":"lion.png",
+	"option2":"tiger.png",
+	"option3":"cheetah.png"
+	},
+        {
+	"question":"మూడు + రెండు ఎంత ?",
+	"option1":"5.jpg",
+	"option2":"7.jpg",
+	"option3":"9.jpg"
+	}
+
+]
+}

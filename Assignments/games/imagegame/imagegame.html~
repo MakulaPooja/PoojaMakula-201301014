@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+ <meta charset="UTF-8">
+    <title>కనిపెట్టండి చూద్దాం!!</title>
+    <link href="main.css"rel="stylesheet"type="text/css"/>
+    <meta name=viewport content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+ 	<script src="jquery.js"></script>
+    <script src="controller.js"></script>
+ 
+</head>
+<body>
+
+<div id="topbar"></div>
+<center>
+<h1 style="color:blue; font-size:50px;">కనిపెట్టండి చూద్దాం!!</h1>
+</center>
+<div class="spacer"></div>
+
+<div id="navContent">
+
+<div id="game1"></div>
+<div id="game2"></div>
+</div>
+ 
+
+
+
+</body>
+</html>

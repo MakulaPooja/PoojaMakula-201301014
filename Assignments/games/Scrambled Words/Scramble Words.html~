@@ -4,7 +4,7 @@
 <meta charset = "utf-8">
 
 <title>Lotto Table</title>
-<link rel="stylesheet" type="text/css" href="Scramble Words.css"></link>
+<link rel="stylesheet" type="text/css" href="Scramble Word.css"></link>
 <style type="text/css">
 .normal { width:40px; font-size:25em; font:bold; }
 
